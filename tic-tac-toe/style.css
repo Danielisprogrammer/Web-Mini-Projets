@@ -31,3 +31,23 @@ body {
     cursor: pointer;
     border-radius: 10px;
 }
+/* Couleur pour X (Bleu) */
+.cell.x {
+    color: #3498db; /* Bleu */
+}
+
+/* Couleur pour O (Rouge) */
+.cell.o {
+    color: #e74c3c; /* Rouge */
+}
+
+/* Petit style pour le bouton Rejouer */
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: var(--bg-button, #2d3e5e);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
